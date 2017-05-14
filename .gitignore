@@ -11,5 +11,7 @@
 /coverage/
 /src/environment/
 
+/src/assets/libs/*
+
 # Typings #
 /typings/

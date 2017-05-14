@@ -1,1 +1,27 @@
-<router-outlet></router-outlet>
+<md-sidenav-container>
+
+    <md-sidenav #sidenav mode="side" class="app-sidenav">
+        <ul>
+            <li><a [routerLink]="['home']" id="nav-home">Home</a></li>
+            <li><a [routerLink]="['gantt']" id="nav-gantt">Gantt</a></li>
+        </ul>
+    </md-sidenav>
+
+    <md-toolbar color="primary">
+        <button class="app-icon-button" (click)="sidenav.toggle()">
+            <i class="material-icons app-toolbar-menu">menu</i>
+        </button>
+
+        <p>
+            Angular DHTMLX Example App
+        </p>
+
+    </md-toolbar>
+
+    <div class="app-content">
+        <router-outlet></router-outlet>
+    </div>
+
+</md-sidenav-container>
+
+

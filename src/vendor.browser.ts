@@ -17,3 +17,6 @@ import '@angular/material/prebuilt-themes/indigo-pink.css';
 
 // import 'jquery';
 import 'lodash';
+
+import 'assets/libs/gantt/dhtmlxgantt.js';
+import 'assets/libs/gantt/dhtmlxgantt.css';
