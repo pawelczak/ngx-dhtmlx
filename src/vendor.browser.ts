@@ -20,3 +20,6 @@ import 'lodash';
 
 import 'assets/libs/gantt/dhtmlxgantt.js';
 import 'assets/libs/gantt/dhtmlxgantt.css';
+
+// import 'assets/libs/grid/dhtmlxgrid.js';
+// import 'assets/libs/grid/dhtmlxgrid.css';

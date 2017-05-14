@@ -28,7 +28,8 @@ export class GanttComponent implements OnInit {
                 private linkService: LinkService) {}
 
     ngOnInit(){
-        gantt.config.xml_date = '%Y-%m-%d %H:%i';
+
+        this.configure();
 
         gantt.init(this.ganttRef.nativeElement);
 
@@ -40,5 +41,9 @@ export class GanttComponent implements OnInit {
             .subscribe((response: Array<any>) => {
                 gantt.parse({data: response[0], links: response[1]});
             });
+    }
+
+    private configure() {
+        gantt.config.xml_date = '%Y-%m-%d %H:%i';
     }
 }

@@ -16,6 +16,7 @@ import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { reducer } from './app.reducers';
 import { GanttModule } from './gantt/gantt.module';
+import { GridModule } from './grid/grid.module';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { GanttModule } from './gantt/gantt.module';
         StoreDevtoolsModule.instrumentOnlyWithExtension({
             maxAge: 10
         }),
-        GanttModule
+        GanttModule,
+        GridModule
     ],
     declarations: [
         AppComponent,
