@@ -10,7 +10,10 @@ import { MaterialModule } from '@angular/material';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
-// app imports
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { firebase } from '../environment/firebase';
+
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
@@ -33,6 +36,8 @@ import { TreeGridModule } from './treegrid/tree-grid.module';
         StoreDevtoolsModule.instrumentOnlyWithExtension({
             maxAge: 10
         }),
+        AngularFireModule.initializeApp(firebase),
+        AngularFireDatabaseModule,
         GanttModule,
         GridModule,
         TreeGridModule
