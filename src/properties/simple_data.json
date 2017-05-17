@@ -1,0 +1,33 @@
+{
+  "id": "1001",
+  "data": [
+    {"value": "row A", "image": "folder.gif"},
+    "A Time to Kill",
+    "John Grisham",
+    "12.99",
+    "1",
+    "05/01/1998"],
+  "rows": [
+    {
+      "id": "sub_1001",
+      "data": [
+        "subrowA",
+        "Blood and Smoke",
+        "Stephen King",
+        "0",
+        "1",
+        "01/01/2000"
+      ]
+    },
+    {
+      "id": "sub_1002",
+      "data": [
+        "subrowB",
+        "Blood and Smoke",
+        "Stephen King",
+        "0",
+        "1",
+        "01/01/2000"]
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 
 import { TreeGridComponent } from './tree-grid.component';
-import { TreeGridService } from './tree-grid.service';
+import { TaskService } from './task/task.service';
+import { MockTaskService } from './mock-tasks.service';
 
 @NgModule({
     imports: [],
@@ -9,7 +10,8 @@ import { TreeGridService } from './tree-grid.service';
         TreeGridComponent
     ],
     providers: [
-        TreeGridService
+        TaskService,
+        MockTaskService
     ]
 })
 export class TreeGridModule {}

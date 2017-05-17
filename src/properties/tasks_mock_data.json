@@ -1,0 +1,1542 @@
+{
+  "minTaskDate": 1492380000000,
+  "maxTaskDate": 1496847455863,
+  "data": [
+    {
+      "id": 5836882,
+      "taskType": "JIRA_PROJECT",
+      "externalId": 11400,
+      "sourceSystem": "JIRA",
+      "key": "EVXIV",
+      "summary": "Evaluate Program VII",
+      "start_date": "2017-04-17",
+      "duration": 52,
+      "mode": "AUTO",
+      "colour": "DEFAULT",
+      "taskDecorator": "TASK",
+      "progress": 0,
+      "open": true,
+      "subtaskingForbidden": true,
+      "$has_child": 1,
+      "columns": {
+        "summary": {
+          "summary": "Evaluate Program VII",
+          "description": ""
+        },
+        "timeTracking": {
+          "originalFormatted": "1232h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "taskType": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324"
+        },
+        "key": {
+          "value": "EVXIV"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6297618,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12300,
+      "sourceSystem": "JIRA",
+      "parent": 5836882,
+      "key": "EVXIV-1",
+      "summary": "Rescue the princess",
+      "start_date": "2017-04-17",
+      "duration": 52,
+      "mode": "AUTO",
+      "colour": "YELLOW",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": true,
+      "$has_child": 6,
+      "columns": {
+        "summary": {
+          "summary": "Rescue the princess"
+        },
+        "timeTracking": {
+          "originalFormatted": "1232h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "taskTypeName": "Task",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-1"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6304786,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12314,
+      "sourceSystem": "JIRA",
+      "parent": 6297618,
+      "key": "EVXIV-15",
+      "summary": "Get past the witch",
+      "start_date": "2017-05-08",
+      "duration": 29,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": true,
+      "$has_child": 3,
+      "columns": {
+        "summary": {
+          "summary": "Get past the witch"
+        },
+        "timeTracking": {
+          "originalFormatted": "352h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "taskTypeName": "Bug",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-15"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6305298,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12315,
+      "sourceSystem": "JIRA",
+      "parent": 6304786,
+      "key": "EVXIV-16",
+      "summary": "Shield yourself",
+      "start_date": "2017-05-08",
+      "duration": 8,
+      "mode": "AUTO",
+      "colour": "GREEN",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Shield yourself"
+        },
+        "timeTracking": {
+          "originalFormatted": "88h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "taskTypeName": "Task",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-16"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6305810,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12316,
+      "sourceSystem": "JIRA",
+      "parent": 6304786,
+      "key": "EVXIV-17",
+      "summary": "Look deep in her eyes",
+      "start_date": "2017-05-16",
+      "duration": 11,
+      "mode": "AUTO",
+      "colour": "YELLOW",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Look deep in her eyes"
+        },
+        "timeTracking": {
+          "originalFormatted": "88h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/images/icons/issuetypes/story.svg",
+          "taskTypeName": "Story",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-17"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6306322,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12317,
+      "sourceSystem": "JIRA",
+      "parent": 6304786,
+      "key": "EVXIV-18",
+      "summary": "Run while she's charmed",
+      "start_date": "2017-05-29",
+      "duration": 8,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Run while she's charmed"
+        },
+        "timeTracking": {
+          "originalFormatted": "88h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "taskTypeName": "Bug",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-18"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6298130,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12301,
+      "sourceSystem": "JIRA",
+      "parent": 6297618,
+      "key": "EVXIV-2",
+      "summary": "Get to the castle",
+      "start_date": "2017-05-01",
+      "duration": 26,
+      "mode": "AUTO",
+      "colour": "YELLOW",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": true,
+      "$has_child": 3,
+      "columns": {
+        "summary": {
+          "summary": "Get to the castle"
+        },
+        "timeTracking": {
+          "originalFormatted": "80h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/images/icons/issuetypes/story.svg",
+          "taskTypeName": "Story",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-2"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6298642,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12302,
+      "sourceSystem": "JIRA",
+      "parent": 6298130,
+      "key": "EVXIV-3",
+      "summary": "Find the map",
+      "start_date": "2017-05-01",
+      "duration": 5,
+      "mode": "AUTO",
+      "colour": "GREEN",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Find the map"
+        },
+        "timeTracking": {
+          "originalFormatted": "16h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "taskTypeName": "Bug",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-3"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6299154,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12303,
+      "sourceSystem": "JIRA",
+      "parent": 6298130,
+      "key": "EVXIV-4",
+      "summary": "Find a horse",
+      "start_date": "2017-05-08",
+      "duration": 10,
+      "mode": "AUTO",
+      "colour": "YELLOW",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Find a horse"
+        },
+        "timeTracking": {
+          "originalFormatted": "24h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "taskTypeName": "Task",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-4"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6299666,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12304,
+      "sourceSystem": "JIRA",
+      "parent": 6298130,
+      "key": "EVXIV-5",
+      "summary": "Say farewells",
+      "start_date": "2017-05-18",
+      "duration": 9,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Say farewells"
+        },
+        "timeTracking": {
+          "originalFormatted": "32h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/images/icons/issuetypes/story.svg",
+          "taskTypeName": "Story",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-5"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6306834,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12318,
+      "sourceSystem": "JIRA",
+      "parent": 6297618,
+      "key": "EVXIV-19",
+      "summary": "Marry the princess",
+      "start_date": "2017-06-05",
+      "duration": 3,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": true,
+      "$has_child": 1,
+      "columns": {
+        "summary": {
+          "summary": "Marry the princess"
+        },
+        "timeTracking": {
+          "originalFormatted": "176h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "taskTypeName": "Task",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-19"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6307346,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12319,
+      "sourceSystem": "JIRA",
+      "parent": 6306834,
+      "key": "EVXIV-20",
+      "summary": "Proposal",
+      "start_date": "2017-06-05",
+      "duration": 3,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Proposal"
+        },
+        "timeTracking": {
+          "originalFormatted": "88h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/images/icons/issuetypes/story.svg",
+          "taskTypeName": "Story",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-20"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6300178,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12305,
+      "sourceSystem": "JIRA",
+      "parent": 6297618,
+      "key": "EVXIV-6",
+      "summary": "Fight the minions",
+      "start_date": "2017-04-17",
+      "duration": 22,
+      "mode": "AUTO",
+      "colour": "YELLOW",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": true,
+      "$has_child": 4,
+      "columns": {
+        "summary": {
+          "summary": "Fight the minions"
+        },
+        "timeTracking": {
+          "originalFormatted": "280h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "taskTypeName": "Bug",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-6"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6300690,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12306,
+      "sourceSystem": "JIRA",
+      "parent": 6300178,
+      "key": "EVXIV-7",
+      "summary": "The undead",
+      "start_date": "2017-04-17",
+      "duration": 8,
+      "mode": "AUTO",
+      "colour": "GREEN",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "The undead"
+        },
+        "timeTracking": {
+          "originalFormatted": "48h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "taskTypeName": "Task",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-7"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6301202,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12307,
+      "sourceSystem": "JIRA",
+      "parent": 6300178,
+      "key": "EVXIV-8",
+      "summary": "The bugs",
+      "start_date": "2017-04-25",
+      "duration": 7,
+      "mode": "AUTO",
+      "colour": "GREEN",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "The bugs"
+        },
+        "timeTracking": {
+          "originalFormatted": "56h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/images/icons/issuetypes/story.svg",
+          "taskTypeName": "Story",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-8"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6301714,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12308,
+      "sourceSystem": "JIRA",
+      "parent": 6300178,
+      "key": "EVXIV-9",
+      "summary": "Sign",
+      "start_date": "2017-05-02",
+      "duration": 7,
+      "mode": "AUTO",
+      "colour": "GREEN",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Sign"
+        },
+        "timeTracking": {
+          "originalFormatted": "64h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "taskTypeName": "Bug",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-9"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6302226,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12309,
+      "sourceSystem": "JIRA",
+      "parent": 6300178,
+      "key": "EVXIV-10",
+      "summary": "milestone - Crossroads",
+      "start_date": "2017-05-08",
+      "duration": 0,
+      "type": "milestone",
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "MILESTONE",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "milestone - Crossroads"
+        },
+        "timeTracking": {
+          "originalFormatted": "72h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "taskTypeName": "Task",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-10"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6302738,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12310,
+      "sourceSystem": "JIRA",
+      "parent": 6297618,
+      "key": "EVXIV-11",
+      "summary": "Rest",
+      "start_date": "2017-05-24",
+      "duration": 13,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "Rest"
+        },
+        "timeTracking": {
+          "originalFormatted": "80h",
+          "percentage": 0
+        },
+        "icons": {
+          "assignee": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/images/icons/issuetypes/story.svg",
+          "taskTypeName": "Story",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-11"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6303250,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12311,
+      "sourceSystem": "JIRA",
+      "parent": 6297618,
+      "key": "EVXIV-12",
+      "summary": "Find better gear",
+      "start_date": "2017-05-09",
+      "duration": 18,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": true,
+      "$has_child": 2,
+      "columns": {
+        "summary": {
+          "summary": "Find better gear"
+        },
+        "timeTracking": {
+          "originalFormatted": "264h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "taskTypeName": "Bug",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-12"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6303762,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12312,
+      "sourceSystem": "JIRA",
+      "parent": 6303250,
+      "key": "EVXIV-13",
+      "summary": "New sword",
+      "start_date": "2017-05-09",
+      "duration": 10,
+      "mode": "AUTO",
+      "colour": "YELLOW",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "New sword"
+        },
+        "timeTracking": {
+          "originalFormatted": "88h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+          "taskTypeName": "Task",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-13"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    },
+    {
+      "id": 6304274,
+      "taskType": "JIRA_ISSUE",
+      "externalId": 12313,
+      "sourceSystem": "JIRA",
+      "parent": 6303250,
+      "key": "EVXIV-14",
+      "summary": "New shield",
+      "start_date": "2017-05-19",
+      "duration": 8,
+      "mode": "AUTO",
+      "colour": "NAVY",
+      "taskDecorator": "TASK",
+      "progress": -1,
+      "open": false,
+      "$has_child": 0,
+      "columns": {
+        "summary": {
+          "summary": "New shield"
+        },
+        "timeTracking": {
+          "originalFormatted": "88h",
+          "percentage": 0
+        },
+        "icons": {
+          "project": "http://localhost:2990/jira/secure/projectavatar?size=xsmall&avatarId=10324",
+          "projectName": "Evaluate Program VII",
+          "reporter": {
+            "username": "admin",
+            "name": "admin",
+            "displayName": "admin",
+            "avatarUrl": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm&s=16",
+            "key": "admin"
+          },
+          "taskType": "http://testlab.softwareplant.com/kuba/images/icons/issuetypes/story.svg",
+          "taskTypeName": "Story",
+          "status": {
+            "name": "Open",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+            "statusCategory": {
+              "key": "new",
+              "name": "The issue is open and ready for the assignee to start work on it.",
+              "colorName": "blue-gray",
+              "sequence": 1
+            },
+            "id": "1"
+          }
+        },
+        "key": {
+          "value": "EVXIV-14"
+        },
+        "status": {
+          "name": "Open",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "http://testlab.softwareplant.com/kuba/images/icons/statuses/open.png",
+          "statusCategory": {
+            "key": "new",
+            "name": "The issue is open and ready for the assignee to start work on it.",
+            "colorName": "blue-gray",
+            "sequence": 1
+          },
+          "id": "1"
+        }
+      },
+      "project": "EVXIV"
+    }
+  ],
+  "links": [
+    {
+      "id": 164,
+      "system": "JIRA",
+      "source": 6305298,
+      "target": 6305810,
+      "externalId": true,
+      "type": 0
+    },
+    {
+      "id": 169,
+      "system": "JIRA",
+      "source": 6301714,
+      "target": 6302226,
+      "externalId": true,
+      "type": 2
+    },
+    {
+      "id": 166,
+      "system": "JIRA",
+      "source": 6304274,
+      "target": 6303762,
+      "externalId": true,
+      "type": 3
+    },
+    {
+      "id": 170,
+      "system": "JIRA",
+      "source": 6298642,
+      "target": 6299154,
+      "externalId": true,
+      "type": 0
+    },
+    {
+      "id": 167,
+      "system": "JIRA",
+      "source": 6300690,
+      "target": 6301202,
+      "externalId": true,
+      "type": 0
+    },
+    {
+      "id": 165,
+      "system": "JIRA",
+      "source": 6305810,
+      "target": 6306322,
+      "externalId": true,
+      "type": 0
+    },
+    {
+      "id": 171,
+      "system": "JIRA",
+      "source": 6299154,
+      "target": 6299666,
+      "externalId": true,
+      "type": 0
+    },
+    {
+      "id": 172,
+      "system": "JIRA",
+      "source": 6302738,
+      "target": 6307346,
+      "externalId": true,
+      "type": 2
+    },
+    {
+      "id": 168,
+      "system": "JIRA",
+      "source": 6301202,
+      "target": 6301714,
+      "externalId": true,
+      "type": 0
+    }
+  ],
+  "outsideLinks": [
+
+  ],
+  "markers": [
+
+  ],
+  "messages": {
+
+  }
+}
