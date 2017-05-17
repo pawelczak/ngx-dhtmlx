@@ -9,7 +9,7 @@ export class MockTaskService {
 
     getMockTasks() {
         return this.http
-                    .get('properties/tasks_mock_data.json')
+                    .get('properties/tasks_data.json')
                     .map((response) => response.json());
     }
 

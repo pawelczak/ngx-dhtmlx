@@ -3,6 +3,7 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 import { Observable } from 'rxjs';
 
 import { MockTaskService } from '../mock-tasks.service';
+import { TasksGenerator } from './tasks.generator';
 
 @Injectable()
 export class TaskService {
@@ -10,16 +11,25 @@ export class TaskService {
     private tasks: FirebaseListObservable<any>;
 
     constructor(private db: AngularFireDatabase,
-                private mockTaskService: MockTaskService) {
+                private mockTaskService: MockTaskService,
+                private tasksGenerator: TasksGenerator) {
         this.tasks = this.db.list('tasks');
 
         this.initData();
     }
 
+    getGeneratedData() {
+        return this.tasksGenerator.generateData().map((list) => {
+            return {
+                rows: list
+            };
+        });
+    }
+
     getMockData(): Observable<any> {
         return this.mockTaskService.getMockTasks().map((list) => {
             return {
-                rows: list
+                rows: [list]
             }
         });
     }

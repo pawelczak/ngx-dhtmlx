@@ -1,16 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgZone } from '@angular/core';
 import { TaskService } from './task/task.service';
 import { TreeGrid } from './grid/tree-grid';
 
 @Component({
     selector: 'tree-grid',
-    template: `<div id="tree-grid" style="width:550px;height:250px;background-color:white"></div>`
+    template: `
+
+    <button (click)="expandAll()" >Expand all</button>
+    <button (click)="collapseAll()" >Collapse all</button>
+    <div id="tree-grid" style="width:700px;height:550px;background-color:white"></div>
+
+    `
 })
 export class TreeGridComponent implements OnInit {
 
     private treeGrid: any;
 
-    constructor(private taskService: TaskService) {
+    constructor(private taskService: TaskService,
+                private ngZone: NgZone) {
     }
 
     ngOnInit() {
@@ -19,9 +26,21 @@ export class TreeGridComponent implements OnInit {
         this.treeGrid.init('tree-grid');
 
         this.taskService
-            .getTasks()
+            .getGeneratedData()
             .subscribe((tasks: any) => {
                 this.treeGrid.parse(tasks);
             });
+    }
+
+    expandAll(): void {
+        this.ngZone.runOutsideAngular(() => {
+            this.treeGrid.expandAll();
+        });
+    }
+
+    collapseAll(): void {
+        this.ngZone.runOutsideAngular(() => {
+            this.treeGrid.collapseAll();
+        });
     }
 }
